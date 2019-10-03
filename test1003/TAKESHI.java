@@ -23,5 +23,9 @@ public class TAKESHI extends Actor
         setRotation(0);
         move(1);
     }
+    if( Greenfoot.isKeyDown( "left" ) ){
+        setRotation(0);
+        move(-1);
+    }
     }    
 }
