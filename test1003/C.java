@@ -14,6 +14,10 @@ public class C extends Actor
      */
     public void act() 
     {
+        if( Greenfoot.isKeyDown( "down" ) ){
+        setRotation(90);
+        move(1);
+}
         // Add your action code here.
     }    
 }
